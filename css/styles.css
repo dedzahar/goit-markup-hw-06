@@ -392,6 +392,7 @@ img {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
@@ -586,13 +587,15 @@ img {
   }
 }
 
-.portfolio-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+@media (hover: hover) {
+  .portfolio-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
 
-.portfolio-item:hover .overlay {
-  transform: translateY(0%);
+  .portfolio-item:hover .overlay {
+    transform: translateY(0%);
+  }
 }
 
 .portfolio-item-content {
