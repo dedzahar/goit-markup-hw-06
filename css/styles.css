@@ -1004,11 +1004,10 @@ img {
 /* ------------- Mobile menu ----------- */
 .mobile-menu {
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
-  width: 100%;
+  width: 320px;
   height: 100%;
-  min-width: 320px;
   display: flex;
   flex-direction: column;
   padding: 72px 16px 40px;
