@@ -677,9 +677,10 @@ img {
   .footer-section .container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: baseline;
     gap: 72px 24px;
+    padding-left: 92px;
   }
   .footer-brand {
     display: inline-block;
@@ -690,6 +691,10 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .footer-section .container {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
 
 .footer-social-title,
